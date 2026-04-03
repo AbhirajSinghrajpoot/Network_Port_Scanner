@@ -1,0 +1,51 @@
+🚀 Multi-threaded Network Port Scanner (GUI)
+A fast, lightweight, and user-friendly Network Port Scanner built with Python using socket, threading, and tkinter. This tool allows you to scan a range of ports on any target IP or hostname to identify open services.
+
+✨ Features
+Multi-threaded Scanning: Uses threading and Semaphore to scan hundreds of ports simultaneously, making it extremely fast.
+
+Real-time GUI: Built with Tkinter, featuring a progress bar, elapsed time, and live result updates.
+
+Service Identification: Automatically maps common port numbers to their respective services (e.g., 80 -> HTTP, 443 -> HTTPS).
+
+Stop/Clear Functionality: Ability to halt an ongoing scan or clear the results with a single click.
+
+Export Results: Save the list of open ports directly into a .txt file for further analysis.
+
+DNS Resolution: Automatically resolves hostnames (like google.com) to their corresponding IP addresses.
+
+🛠️ Requirements
+Python 3.x
+
+No external libraries required (Uses standard Python libraries: socket, threading, tkinter).
+
+🚀 Getting Started
+1. Installation
+Clone the repository to your local machine:
+
+Bash
+git clone https://github.com/YOUR_USERNAME/port-scanner-gui.git
+cd port-scanner-gui
+2. Run the Application
+Simply execute the Python script:
+
+Bash
+python scanner.py
+📖 How to Use
+Enter Target: Provide the IP address (e.g., 127.0.0.1) or hostname (e.g., scanme.nmap.org).
+
+Set Range: Enter the Start Port and End Port (Default: 1-1024).
+
+Start Scan: Click the "Start Scan" button.
+
+View Results: Open ports will appear in the result window with their service names.
+
+Save: Once completed, use the "Save Results" button to export the data.
+
+⚠️ Disclaimer
+Educational Purposes Only. This tool is intended for ethical hacking, network administration, and learning. Do not scan targets you do not have explicit permission to test. Unauthorized scanning can be illegal and may be detected by security systems.
+
+🤝 Contributing
+Contributions are welcome! If you have suggestions for new features (like UDP scanning or OS detection), feel free to open an issue or submit a pull request.
+
+Developed with ❤️ by Abhiraj Singh Rajpoot
