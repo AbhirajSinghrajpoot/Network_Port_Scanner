@@ -24,13 +24,13 @@ No external libraries required (Uses standard Python libraries: socket, threadin
 Clone the repository to your local machine:
 
 Bash
-git clone https://github.com/YOUR_USERNAME/port-scanner-gui.git
-cd port-scanner-gui
+git clone https://github.com/AbhirajSinghrajpoot/Network_scan.git
+cd Network_scan
 2. Run the Application
 Simply execute the Python script:
 
 Bash
-python scanner.py
+python portscanergui.py
 📖 How to Use
 Enter Target: Provide the IP address (e.g., 127.0.0.1) or hostname (e.g., scanme.nmap.org).
 
