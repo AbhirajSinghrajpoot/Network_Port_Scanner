@@ -1,6 +1,6 @@
 # Network Port Scanner (GUI)
 
-A fast, lightweight, and user-friendly Network Port Scanner built with Python using socket, threading, and tkinter. This tool allows you to scan a range of ports on any target IP or hostname to identify open services.
+<b>A fast, lightweight, and user-friendly Network Port Scanner built with Python using socket, threading, and tkinter. This tool allows you to scan a range of ports on any target IP or hostname to identify open services.
 
 ✨ Features
 Multi-threaded Scanning: Uses threading and Semaphore to scan hundreds of ports simultaneously, making it extremely fast.
